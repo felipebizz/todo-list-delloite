@@ -83,7 +83,6 @@
                 </c:forEach>
         </div>
         </table>
-        <div id="msg">aaaaaaa</div>
     </c:if>
 
 </div>
