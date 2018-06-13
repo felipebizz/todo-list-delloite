@@ -30,7 +30,7 @@
     <form:form method="POST" modelAttribute="taskForm" action="${contextPath}/save" class="form-signin">
     <h2 class="form-signin-heading">New Task</h2>
 
-    <div class="form-group ${error != null ? 'has-error' : ''}">
+        <div class="form-group ${error != null ? 'has-error' : ''}">
         <spring:bind path="description">
         <form:input type="text" path="description" class="form-control" placeholder="Description"
                     autofocus="true"></form:input>
