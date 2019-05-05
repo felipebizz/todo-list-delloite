@@ -9,13 +9,13 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 @SpringBootApplication
 public class TodoApplication extends SpringBootServletInitializer {
 
+    public static void main(String[] args) {
+        SpringApplication.run(TodoApplication.class, args);
+    }
+
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(TodoApplication.class);
     }
 
-    public static void main(String[] args) {
-        SpringApplication.run(TodoApplication.class, args);
-
-    }
 }

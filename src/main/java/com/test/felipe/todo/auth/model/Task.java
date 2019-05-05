@@ -37,14 +37,6 @@ public class Task {
     private long idUser;
 
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public Task() {
     }
 
@@ -56,24 +48,32 @@ public class Task {
         updatedAt = new Date();
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getDescription() {
         return description;
-    }
-
-    public boolean isCompleted() {
-        return completed;
-    }
-
-    public Date getCreatedAt() {
-        return createdAt;
     }
 
     public void setDescription(String description) {
         this.description = description;
     }
 
+    public boolean isCompleted() {
+        return completed;
+    }
+
     public void setCompleted(boolean completed) {
         this.completed = completed;
+    }
+
+    public Date getCreatedAt() {
+        return createdAt;
     }
 
     public void setCreatedAt(Date createdAt) {

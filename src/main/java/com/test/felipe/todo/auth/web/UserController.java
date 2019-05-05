@@ -145,6 +145,4 @@ public class UserController {
         }
         throw new RuntimeException("User is not Logged");
     }
-
-
 }

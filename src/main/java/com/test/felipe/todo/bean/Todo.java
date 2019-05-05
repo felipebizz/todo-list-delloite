@@ -2,19 +2,16 @@ package com.test.felipe.todo.bean;
 
 public class Todo {
 
+    private String name;
+    private int n1;
+    private int n2;
     public Todo() {
     }
-
     public Todo(String name, int n1, int n2) {
         this.name = name;
         this.n1 = n1;
         this.n2 = n2;
     }
-
-    private String name;
-    private int n1;
-    private int n2;
-
 
     public String getName() {
         return name;
