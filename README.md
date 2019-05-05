@@ -2,7 +2,7 @@
 
 Make a todo list project 
 
-### to verify best practices
+### verify some best practices missing
 
 * Verify security in all requests
 * Validation endpoints
@@ -16,7 +16,7 @@ Make a todo list project
 * Specific Pages for exceptions
 
 
-#### It was tested in two browsers: 
+#### App was tested in two browsers: 
 ```
  Mozilla and Chrome
 ```
